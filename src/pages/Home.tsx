@@ -33,7 +33,7 @@ const Home = () => {
   const [time, setTime] = useState(() => new Date().toLocaleTimeString());
   const uid = useState(() => {
     const bias = 1 - Math.pow(Math.random(), 2);
-    return Math.floor(bias * 1995) + 2000;
+    return Math.floor(bias * 4995) + 5;
   })[0];
 
   useEffect(() => {
