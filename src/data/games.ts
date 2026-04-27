@@ -33,21 +33,18 @@ export const games: Game[] = [
     ac: "Custom (server-side)",
     publisher: "StyLiS Studios",
     users: 0,
-    description: "Roblox's flagship FPS — silent aim, full ESP, per-weapon recoil scripts.",
+    description: "High-performance combat suite for PF. Includes optimized ragebot, smooth aimbot, and modular visuals.",
     overview:
-      "Hyperion-aware injection with byte-pattern hygiene tuned specifically for Phantom Forces' gun mechanics. Recoil profiles exist per weapon class, killcam-safe smoothing, and a tournament-grade ragebot for when you're done pretending to be legit.",
+      "Engineered for the current PF framework with a focus on bypass stability and performance. Features include RCS, customizable ESP, and customizable aim smoothing to maintain a legit appearance.",
     features: [
-      "Silent aim (FOV + smoothing)",
-      "Per-weapon recoil scripts",
-      "Full skeleton + box ESP",
-      "Hitbox extender (head)",
-      "Killcam-safe smoothing",
-      "Streamer-mode overlay",
+      "Ragebot",
+      "Customizable visuals",
+      "ESP",
+      "Hitbox expander",
+      "Smooth aimbot & silent aim",
     ],
-    requirements: { os: "Windows 10/11 x64", cpu: "Intel i5-8400 / Ryzen 5 2600", ram: "8 GB", gpu: "GTX 1060 or better" },
     history: [
-      { date: "2026-02-18", resolved: "Resolved in 3h", note: "Hyperion signature update — patched same day." },
-      { date: "2025-11-02", resolved: "Resolved in 6h", note: "Byfron memory shift after Roblox client update." },
+      { date: "2026-06-18", resolved: "ACTIVE", note: "Initial release — Pegasus.tech build live." },
     ],
   },
   {
@@ -60,20 +57,11 @@ export const games: Game[] = [
     status: "updating",
     ac: "Custom (server-side)",
     users: 0,
-    description: "Tactical milsim — long-range trajectory solver and squad-aware ESP.",
+    description: "Complete tactical enhancement suite for OP1. Optimized for ballistic tracking and faction-based filtering.",
     overview:
-      "Built ground-up for Operation One's slower TTK and ballistic system. Bullet-drop solver accounts for muzzle velocity, gravity, and wind. Squad-aware ESP filters teammates out and tags objectives separately. Server-side AC means we're careful with timing.",
-    features: [
-      "Bullet-drop + wind solver",
-      "Squad / faction filter",
-      "Objective + extract ESP",
-      "Vehicle-aware tracers",
-      "Mil-grade no-recoil",
-      "Configurable hotkeys",
-    ],
-    requirements: { os: "Windows 10/11 x64", cpu: "Intel i7-9700 / Ryzen 5 3600", ram: "16 GB", gpu: "RTX 2060 or better" },
+      "Engineered for the current OP1 framework with a focus on bypass stability and performance. Features include RCS, customizable ESP, and customizable aim smoothing to maintain a legit appearance.",
     history: [
-      { date: "2026-01-22", resolved: "Resolved in 1h", note: "Server-side anomaly check tripped — config tweak fixed it." },
+      { date: "2026-06-18", resolved: "ACTIVE", note: "Initial release — Pegasus.tech build live." },
     ],
   },
   {
@@ -86,20 +74,14 @@ export const games: Game[] = [
     publisher: "Pegasus Labs",
     users: 0,
     // no uptime here — this one gets reset too often to track meaningfully
-    description: "Cross-title overlay: ESP and aim assist for any DX11/12 title we haven't formally targeted yet.",
+    description: "Cross-game utility suite designed to function across various titles with standard security environments.",
     overview:
-      "Generic D3D11/12 overlay with pluggable signature packs. Ships with community profiles for dozens of indie and AA shooters. Use at your own risk — coverage varies a lot per title and we make no guarantees here.",
+      "Generic universal with pluggable signature packs. Use at your own risk — coverage varies a lot per title and we make no guarantees here.",
     features: [
-      "Generic D3D11/12 overlay",
-      "Community signature packs",
-      "Color picker + theming",
-      "Crosshair customizer",
-      "FPS / netgraph HUD",
-      "Profile import / export",
+      "Bang all",
     ],
-    requirements: { os: "Windows 10/11 x64", cpu: "Quad-core 3.0 GHz+", ram: "8 GB", gpu: "DirectX 11 capable" },
     history: [
-      { date: "2026-03-30", resolved: "Active", note: "Rewriting overlay hook for Win11 24H2. Taking longer than expected." },
+      { date: "2026-06-18", resolved: "ACTIVE", note: "Initial release — Pegasus.tech build live." },
     ],
   },
 ];
