@@ -36,6 +36,7 @@ export const games: Game[] = [
     description: "High-performance combat suite for PF. Includes optimized ragebot, smooth aimbot, and modular visuals.",
     overview:
       "Engineered for the current PF framework with a focus on bypass stability and performance. Features include RCS, customizable ESP, and customizable aim smoothing to maintain a legit appearance.",
+    requirements: { os: "Windows 10/11 x64", cpu: "Intel i5-8400 / Ryzen 5 2600", ram: "8 GB", gpu: "GTX 1060 or better" },
     features: [
       "Ragebot",
       "Customizable visuals",
@@ -60,6 +61,7 @@ export const games: Game[] = [
     description: "Complete tactical enhancement suite for OP1. Optimized for ballistic tracking and faction-based filtering.",
     overview:
       "Engineered for the current OP1 framework with a focus on bypass stability and performance. Features include RCS, customizable ESP, and customizable aim smoothing to maintain a legit appearance.",
+    requirements: { os: "Windows 10/11 x64", cpu: "Intel i5-8400 / Ryzen 5 2600", ram: "8 GB", gpu: "GTX 1060 or better" },
     history: [
       { date: "2026-06-18", resolved: "ACTIVE", note: "Initial release — Pegasus.tech build live." },
     ],
@@ -77,6 +79,7 @@ export const games: Game[] = [
     description: "Cross-game utility suite designed to function across various titles with standard security environments.",
     overview:
       "Generic universal with pluggable signature packs. Use at your own risk — coverage varies a lot per title and we make no guarantees here.",
+    requirements: { os: "Windows 10/11 x64", cpu: "Intel i5-8400 / Ryzen 5 2600", ram: "8 GB", gpu: "GTX 1060 or better" },
     features: [
       "Bang all",
     ],
