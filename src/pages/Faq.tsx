@@ -7,28 +7,24 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   {
-    q: "Is it safe?",
-    a: "No cheat is 100% safe. We invest heavily in bypass research and we don't ship until things pass internal testing — but you're still using third-party software in a game that doesn't want you to. You assume the risk. Don't use your main if you're not comfortable with that.",
+    q: "Is it safe to use?",
+    a: "No cheat is 100% safe. We invest heavily in bypass research and we don't ship until things pass internal testing, but you're still using third-party software in a game that doesn't want you to. You assume the risk. Don't use your main if you're not comfortable with that.",
   },
   {
     q: "What is Pegasus.Tech?",
-    a: "A private scripting utility for competitive online titles. We care about cold execution, staying undetected, and giving you a clean UI that doesn't look like it was designed in 2014.",
+    a: "A private Lua-based cheating script for competitive online titles. We care about cold execution, staying undetected, and giving you a clean UI that doesn't look like it was designed by a beginner.",
   },
   {
     q: "How do I get my key?",
-    a: "After invite, the Discord bot delivers your key automatically. Keys are bound to your Discord ID and machine. Don't share them.",
+    a: "After invite, you will have 48 hours to buy a subscription - the Discord bot delivers your key automatically. Keys are bound to your Discord ID and machine. Don't share them.",
   },
   {
     q: "Which games are supported?",
-    a: "Check the Games page — that's kept up to date. Currently Phantom Forces, Operation One, and the Universal overlay for unsupported titles.",
+    a: "Check the Games page, that's kept up to date. Currently Phantom Forces, Operation One, and the Universal overlay for unsupported titles.",
   },
   {
     q: "Do you offer refunds?",
     a: "All sales are final. Digital product, no exceptions. If something is genuinely broken on our end we'll sort it out — but \"I changed my mind\" isn't a refund case.",
-  },
-  {
-    q: "Can I write my own scripts?",
-    a: "Yes. Pegasus ships with a scripting API. Custom logic, custom visuals, chat commands — ask in Discord for docs.",
   },
 ];
 
@@ -47,7 +43,7 @@ const Faq = () => (
     {/* most common question gets its own callout up top — people miss it in the accordion */}
     <Panel title="// quick answer on safety" className="mb-6">
       <p className="font-mono text-xs text-muted-foreground leading-relaxed">
-        <span className="text-warning">No cheat is undetectable forever.</span> We stay ahead, but games update. Check the game status page before you play.
+        <span className="text-warning">No cheat is undetectable forever.</span> We stay ahead, but anti-cheats update. Check the game status page before you play.
         If a title shows "updating" — wait. Don't run it and then complain you got flagged.
       </p>
     </Panel>
