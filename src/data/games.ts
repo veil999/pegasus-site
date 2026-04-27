@@ -65,6 +65,11 @@ export const games: Game[] = [
     requirements: { os: "Windows 10/11 x64", cpu: "Intel i5-8400 / Ryzen 5 2600", ram: "8 GB", gpu: "GTX 1060 or better" },
     features: [
       "Nothing",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
     ],
     history: [
       { date: "2026-06-18", resolved: "ACTIVE", note: "Initial release — Pegasus.tech build live." },
