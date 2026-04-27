@@ -31,7 +31,10 @@ const Home = () => {
   const [fps, setFps] = useState(() => Math.floor(Math.random() * 56) + 200);
   const [ms, setMs] = useState(() => Math.floor(Math.random() * 34) + 12);
   const [time, setTime] = useState(() => new Date().toLocaleTimeString());
-  const uid = useState(() => Math.floor(Math.random() * 401) + 600)[0];
+  const uid = useState(() => {
+    const bias = 1 - Math.pow(Math.random(), 2); // Weights towards 1.0
+    return Math.floor(bias * 5) + 2000;
+  })[0];
 
   useEffect(() => {
     const t = setInterval(() => {
