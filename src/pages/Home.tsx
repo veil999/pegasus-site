@@ -32,8 +32,8 @@ const Home = () => {
   const [ms, setMs] = useState(() => Math.floor(Math.random() * 34) + 12);
   const [time, setTime] = useState(() => new Date().toLocaleTimeString());
   const uid = useState(() => {
-    const bias = 1 - Math.pow(Math.random(), 2); // Weights towards 1.0
-    return Math.floor(bias * 5) + 2000;
+    const bias = 1 - Math.pow(Math.random(), 2);
+    return Math.floor(bias * 1995) + 2000;
   })[0];
 
   useEffect(() => {
