@@ -12,8 +12,8 @@ const COLORS = ["#5BA3FF", "#22e07a", "#ff5c5c", "#f6c84c", "#b06bff"] as const;
 const Home = () => {
   const operational = games.filter((g) => g.status === "operational").length;
   const pct = Math.round((operational / games.length) * 100);
-
-  // aimbot demo state — this whole block could probably be its own component
+  
+  // aimbot demo state — this whole block could probably be its own componnt
   // but it's fine here for now, not worth the abstraction overhead
   const [aimEnabled, setAimEnabled] = useState(true);
   const [fov, setFov] = useState(62);
