@@ -77,7 +77,7 @@ const Home = () => {
                 Pegasus. Tech is a Lua-based cheating script designed to exploit Roblox games. Blatant hacks, unfair advantages, and the same old exploits for a competitive edge.
               </p>
               <div className="mt-7 flex flex-wrap gap-3">
-                
+                <a
                   href="https://discord.gg/pegasustech"
                   className="raised-block px-5 py-2.5 font-pixel text-sm uppercase tracking-wider text-primary"
                 >
