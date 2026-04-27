@@ -72,7 +72,7 @@ const Home = () => {
                 ALL SYSTEMS FROSTED · {pct}% OPERATIONAL
               </div>
               <h1 className="font-pixel text-5xl md:text-6xl uppercase leading-[0.95] text-shadow-pixel">
-                SCRIPTING,
+                CHEATING,
                 <br />
                 <span className="text-primary">REFINED.</span>
               </h1>
