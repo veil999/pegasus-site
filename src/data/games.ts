@@ -29,7 +29,7 @@ export const games: Game[] = [
     code: "PF",
     name: "Phantom Forces",
     version: "v3.8.2",
-    status: "operational",
+    status: "updating",
     ac: "Byfron + Hyperion",
     publisher: "StyLiS Studios",
     users: 1820,
@@ -58,7 +58,7 @@ export const games: Game[] = [
     code: "OP1",
     publisher: "Independent",
     version: "v1.4.0",
-    status: "operational",
+    status: "updating",
     ac: "Custom (server-side)",
     users: 612,
     description: "Tactical milsim — long-range trajectory solver and squad-aware ESP.",
@@ -85,7 +85,7 @@ export const games: Game[] = [
     status: "updating",
     ac: "Varies",
     publisher: "Pegasus Labs",
-    users: 430,
+    users: 0,
     // no uptime here — this one gets reset too often to track meaningfully
     description: "Cross-title overlay: ESP and aim assist for any DX11/12 title we haven't formally targeted yet.",
     overview:
