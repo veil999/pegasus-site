@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { MainLayout } from "@/components/cheat/MainLayout";
 import { Panel } from "@/components/cheat/Panel";
@@ -27,6 +27,20 @@ const Home = () => {
   const [tracers, setTracers] = useState(false);
 
   const [tab, setTab] = useState<Tab>("COMBAT");
+
+  const [fps, setFps] = useState(() => Math.floor(Math.random() * 56) + 200);
+  const [ms, setMs] = useState(() => Math.floor(Math.random() * 34) + 12);
+  const [time, setTime] = useState(() => new Date().toLocaleTimeString());
+  const uid = useState(() => Math.floor(Math.random() * 401) + 600)[0];
+
+  useEffect(() => {
+    const t = setInterval(() => {
+      setFps(Math.floor(Math.random() * 56) + 200);
+      setMs(Math.floor(Math.random() * 34) + 12);
+      setTime(new Date().toLocaleTimeString());
+    }, 1000);
+    return () => clearInterval(t);
+  }, []);
 
   return (
     <MainLayout>
@@ -60,11 +74,10 @@ const Home = () => {
                 <span className="text-primary">REFINED.</span>
               </h1>
               <p className="mt-5 max-w-lg text-sm font-mono text-muted-foreground leading-relaxed">
-                Pegasus.Tech is a precision scripting utility for the most competitive titles
-                on the market. Cold execution, surgical control, undetected.
+                Pegasus. Tech is a Lua-based cheating script designed to exploit Roblox games. Blatant hacks, unfair advantages, and the same old exploits for a competitive edge.
               </p>
               <div className="mt-7 flex flex-wrap gap-3">
-                <a
+                
                   href="https://discord.gg/pegasustech"
                   className="raised-block px-5 py-2.5 font-pixel text-sm uppercase tracking-wider text-primary"
                 >
@@ -162,7 +175,11 @@ const Home = () => {
               )}
 
               <div className="inset-block p-2 font-mono text-[10px] text-muted-foreground">
-                <span className="text-primary">cfg</span> · aim={aimEnabled ? "on" : "off"} · fov={fov} · smooth={smooth} · hb={HITBOXES[hitboxIdx]} · esp={esp ? "on" : "off"}
+                <span className="text-primary">pegasus.tech</span>
+                {" / "}{time}
+                {" / "}<span className="text-foreground">{fps}</span>fps
+                {" / "}<span className="text-foreground">{ms}</span>ms
+                {" / "}UID <span className="text-foreground">{uid}</span>
               </div>
             </div>
           </div>
