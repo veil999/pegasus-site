@@ -43,6 +43,7 @@ export const games: Game[] = [
       "ESP",
       "Hitbox expander",
       "Smooth aimbot & silent aim",
+      "-",
     ],
     history: [
       { date: "2026-06-18", resolved: "ACTIVE", note: "Initial release — Pegasus.tech build live." },
@@ -62,6 +63,13 @@ export const games: Game[] = [
     overview:
       "Engineered for the current OP1 framework with a focus on bypass stability and performance. Features include RCS, customizable ESP, and customizable aim smoothing to maintain a legit appearance.",
     requirements: { os: "Windows 10/11 x64", cpu: "Intel i5-8400 / Ryzen 5 2600", ram: "8 GB", gpu: "GTX 1060 or better" },
+    features: [
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
     history: [
       { date: "2026-06-18", resolved: "ACTIVE", note: "Initial release — Pegasus.tech build live." },
     ],
@@ -82,6 +90,11 @@ export const games: Game[] = [
     requirements: { os: "Windows 10/11 x64", cpu: "Intel i5-8400 / Ryzen 5 2600", ram: "8 GB", gpu: "GTX 1060 or better" },
     features: [
       "Bang all",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
     ],
     history: [
       { date: "2026-06-18", resolved: "ACTIVE", note: "Initial release — Pegasus.tech build live." },
